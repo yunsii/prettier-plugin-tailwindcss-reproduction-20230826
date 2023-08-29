@@ -15,7 +15,7 @@ const config: Config = {
       iconSets: getLocalIconSets({
         define: {
           custom: {
-            path: path.join(process.cwd(), "./src/assets"),
+            path: path.join(__dirname, "./src/assets"),
             options: {
               includeSubDirs: false,
             },
